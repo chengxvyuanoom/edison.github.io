@@ -3,6 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-Talk about yourself.
+一个好人
 
 
