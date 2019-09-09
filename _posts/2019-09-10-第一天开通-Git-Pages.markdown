@@ -13,4 +13,4 @@ date:   2019-9-10 00:51:12
 
 > 你看我，好，那我也看你呢
 
-![timg](/assets/images/timg.gif)
+![timg](https://github.com/chengxvyuanoom/edison.github.io/blob/master/assets/images/timg.gif)
