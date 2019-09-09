@@ -7,7 +7,7 @@ email: zhangyifan@datapipeline.com
 baseurl: "/edison.github.io/" # the subpath of your site, e.g. /blog
 url: "https://chengxvyuanoom.github.io/edison.github.io/" # the base hostname & protocol for your site
 twitter_username: YourTwitter
-github_username:  YourGitHub
+github_username:  chengxvyuanoom
 
 disqus_shortname: YourDisqusShortname
 
