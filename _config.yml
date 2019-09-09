@@ -1,11 +1,11 @@
 # Site settings
-title: Your site
+title: 外来务工人员小张的记事本
 description: >
-    Your description
-author: Your name
-email: your@e.mail
+    学习记录
+author: chengxvyuan
+email: zhangyifan@datapipeline.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourname.github.io" # the base hostname & protocol for your site
+url: "https://edison.github.io" # the base hostname & protocol for your site
 twitter_username: YourTwitter
 github_username:  YourGitHub
 
