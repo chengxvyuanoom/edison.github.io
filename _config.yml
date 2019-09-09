@@ -4,7 +4,7 @@ description: >
     学习记录
 author: chengxvyuan
 email: zhangyifan@datapipeline.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/edison.github.io/" # the subpath of your site, e.g. /blog
 url: "https://chengxvyuanoom.github.io/edison.github.io/" # the base hostname & protocol for your site
 twitter_username: YourTwitter
 github_username:  YourGitHub
