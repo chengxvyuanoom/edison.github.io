@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: amp
 title:  "第一天开通Git Pages"
 date:   2019-9-10 00:51:12
 ---
