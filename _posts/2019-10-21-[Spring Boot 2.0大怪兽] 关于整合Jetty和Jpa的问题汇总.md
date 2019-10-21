@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Spring Boot 大怪兽] 关于整合Jetty和Jpa的问题汇总"
+title:  "[Spring Boot 2.0 大怪兽] 关于整合Jetty和Jpa的问题汇总"
 date:   2019-10-21 00:51:12
 ---
 
