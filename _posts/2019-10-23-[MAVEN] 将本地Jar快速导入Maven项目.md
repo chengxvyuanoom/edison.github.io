@@ -8,33 +8,42 @@ date:   2019-10-23 00:51:12
 
 1. 先确认安装好了Maven 环境
 
-   > mvn -v 
+   ```
+   mvn -v 
+   ```
+
+   
 
 2. 安装Jar到本地环境
 
-   > mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
-
-   ​     
-
-   >  <path-to-file>: 要安装的JAR的本地路径
-   >  <group-id>：要安装的JAR的Group Id
-   >  <artifact-id>: 要安装的JAR的 Artificial Id
-   >  <version>: JAR 版本
-   >  <packaging>: 打包类型，例如JAR
+   ```
+    mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
+   
+   
+    <path-to-file>: 要安装的JAR的本地路径
+    <group-id>：要安装的JAR的Group Id
+    <artifact-id>: 要安装的JAR的 Artificial Id
+    <version>: JAR 版本
+    <packaging>: 打包类型，例如JAR
+   ```
 
    
 
 3. 本地引用
 
-   > <dependency>    
-   >
-   > <groupId>com.kingdee</groupId>    
-   >
-   > <artifactId>kingdee</artifactId>   
-   >
-   > <version>1.0.0</version>
-   >
-   > </dependency>
+   ```
+   <dependency>    
+   
+   <groupId>com.kingdee</groupId>    
+   
+   <artifactId>kingdee</artifactId>   
+   
+   <version>1.0.0</version>
+   
+   </dependency>
+   ```
+   
+   
 
 
 
@@ -50,11 +59,12 @@ date:   2019-10-23 00:51:12
 
    ```xml
    <dependency>
-           <groupId>com.xxx</groupId>
-           <artifactId>xxx-sdk-java</artifactId>
-           <version>x.x.x</version>
-           <scope>system</scope>
-           <systemPath>${project.basedir}/xxx-sdk-java.jar</systemPath> </dependency>
+        <groupId>com.xxx</groupId>
+        <artifactId>xxx-sdk-java</artifactId>
+        <version>x.x.x</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/xxx-sdk-java.jar</systemPath> 
+   </dependency>
    ```
 
    
