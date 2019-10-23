@@ -14,13 +14,15 @@ date:   2019-10-23 00:51:12
 
    > mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
 
-​        
+   ​     
 
-​        <path-to-file>: 要安装的JAR的本地路径
-​        <group-id>：要安装的JAR的Group Id
-​        <artifact-id>: 要安装的JAR的 Artificial Id
-​        <version>: JAR 版本
-​        <packaging>: 打包类型，例如JAR
+   >  <path-to-file>: 要安装的JAR的本地路径
+   >  <group-id>：要安装的JAR的Group Id
+   >  <artifact-id>: 要安装的JAR的 Artificial Id
+   >  <version>: JAR 版本
+   >  <packaging>: 打包类型，例如JAR
+
+   
 
 3. 本地引用
 
@@ -30,9 +32,9 @@ date:   2019-10-23 00:51:12
    >
    > <artifactId>kingdee</artifactId>   
    >
-   >  <version>1.0.0</version>
+   > <version>1.0.0</version>
    >
-   >  </dependency>
+   > </dependency>
 
 
 
